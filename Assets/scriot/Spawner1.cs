@@ -19,7 +19,13 @@ public class Spawner1 : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {   
+    {
+        planeta1.SetActive(true);
+        planeta2.SetActive(true);
+        planeta3.SetActive(true);
+        planeta4.SetActive(true);
+        planeta5.SetActive(true);
+
         posRandX1 = Random.Range(-64, 64);
         planeta1.transform.position = new Vector3(posRandX1, 3, 64);
 
@@ -40,5 +46,9 @@ public class Spawner1 : MonoBehaviour
     void Update()
     {
         
+        
+        
     }
+
+    
 }
