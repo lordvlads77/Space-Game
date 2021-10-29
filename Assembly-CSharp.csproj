@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6B9B19FB-C7A0-E82B-C5FC-257D74D8697A}</ProjectGuid>
+    <ProjectGuid>{B17CB415-91DB-44B8-C9C3-E8A3653422DB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,8 +53,10 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\scriot\flipnormals.cs" />
     <Compile Include="Assets\scriot\Spawner1.cs" />
     <Compile Include="Assets\scriot\Texture.cs" />
+    <Compile Include="Assets\scriot\Rotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
