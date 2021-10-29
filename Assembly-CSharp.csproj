@@ -54,13 +54,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\scriot\MeshHide.cs" />
-    <Compile Include="Assets\scriot\Movimiento.cs" />
+    <Compile Include="Assets\scriot\Movimiento1.cs" />
     <Compile Include="Assets\scriot\Rotation.cs" />
     <Compile Include="Assets\scriot\Texture.cs" />
     <Compile Include="Assets\scriot\LogicaPersonaje.cs" />
     <Compile Include="Assets\scriot\Spawner1.cs" />
     <Compile Include="Assets\scriot\flipnormals.cs" />
     <Compile Include="Assets\scriot\CamSwitch.cs" />
+    <Compile Include="Assets\Animated Planet Bagyo\Demo\Script\LookCamera.cs" />
+    <Compile Include="Assets\scriot\Kaboom.cs" />
+    <Compile Include="Assets\scriot\AparecerObjetos.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
