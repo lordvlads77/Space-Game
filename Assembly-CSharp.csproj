@@ -53,9 +53,12 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\scriot\Rotation.cs" />
     <Compile Include="Assets\scriot\Texture.cs" />
     <Compile Include="Assets\scriot\Spawner1.cs" />
     <Compile Include="Assets\scriot\flipnormals.cs" />
+    <Compile Include="Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\scriot\Movimiento.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
