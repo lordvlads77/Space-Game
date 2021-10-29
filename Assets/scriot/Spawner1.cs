@@ -11,6 +11,12 @@ public class Spawner1 : MonoBehaviour
     public GameObject planeta4;
     public GameObject planeta5;
 
+    public GameObject Oro;
+    public GameObject Oro2;
+
+    public GameObject Bomba1;
+    public GameObject Bomba2;
+
     private float posRandX1;
     private float posRandX2;
     private float posRandX3;
@@ -25,6 +31,12 @@ public class Spawner1 : MonoBehaviour
         planeta3.SetActive(true);
         planeta4.SetActive(true);
         planeta5.SetActive(true);
+
+        Oro.SetActive(true);
+        Oro2.SetActive(true);
+
+        Bomba1.SetActive(true);
+        Bomba2.SetActive(true);
 
         posRandX1 = Random.Range(-64, 64);
         planeta1.transform.position = new Vector3(posRandX1, 3, 64);
