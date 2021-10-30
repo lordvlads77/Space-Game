@@ -54,7 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\scriot\Mov.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\scriot\PlayerRot.cs" />
     <Compile Include="Assets\scriot\Kaboom.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
@@ -70,8 +72,9 @@
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\scriot\flipnormals.cs" />
     <Compile Include="Assets\scriot\CamSwitch.cs" />
-    <Compile Include="Assets\scriot\Mov.cs" />
-    <Compile Include="Assets\scriot\PlayerRot.cs" />
+    <Compile Include="Assets\scriot\PlayerMov.cs" />
+    <Compile Include="Assets\scriot\Movimiento1.cs" />
+    <Compile Include="Assets\scriot\Mov1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

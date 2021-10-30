@@ -11,8 +11,8 @@ public class PlayerRot : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rotateVertical = joystick.Vertical * 2f;
-        rotateHorizontal = joystick.Horizontal * -2f;
+        rotateVertical = joystick.Vertical * -2f;
+        rotateHorizontal = joystick.Horizontal * 2f;
         transform.Rotate(rotateVertical, 0, rotateHorizontal);
     }
 }

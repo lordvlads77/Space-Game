@@ -21,7 +21,7 @@ public class Mov : MonoBehaviour
         XMov = joystick.Horizontal;
         ZMov = joystick.Vertical;
 
-        transform.position += new Vector3(XMov, 0f, ZMov) * speed * Time.deltaTime;
+        transform.position += new Vector3(ZMov, 0f, XMov) * speed * Time.deltaTime;
 
        
     }
