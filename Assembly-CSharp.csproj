@@ -60,6 +60,8 @@
     <Compile Include="Assets\scriot\Kaboom.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\scriot\Mov1.cs" />
+    <Compile Include="Assets\scriot\Movimiento1.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\scriot\MeshHide.cs" />
     <Compile Include="Assets\Animated Planet Bagyo\Demo\Script\LookCamera.cs" />
@@ -73,8 +75,6 @@
     <Compile Include="Assets\scriot\flipnormals.cs" />
     <Compile Include="Assets\scriot\CamSwitch.cs" />
     <Compile Include="Assets\scriot\PlayerMov.cs" />
-    <Compile Include="Assets\scriot\Movimiento1.cs" />
-    <Compile Include="Assets\scriot\Mov1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
